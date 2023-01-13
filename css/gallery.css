@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: antiquewhite;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 445px;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: blue;
+  }
+
+.picture-grid {
+    width: 990px;
+    height: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px auto 0 auto;
+}
+
+.photo-card {
+    width: 300px;
+    height: 300px;
+    transition: 0.3s ease;
+}
+
+.photo-card:hover {
+    transform: scale(1.1);
+}
